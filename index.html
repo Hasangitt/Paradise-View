@@ -29,8 +29,14 @@
             font-family: "Dancing Script", cursive;
         }
       </style>
+      <link rel="stylesheet" href="explore.html">
+      <link rel="stylesheet" href="rooms.html">
+      <link rel="stylesheet" href="about.html">
+      <link rel="stylesheet" href="contact.html">
 </head>
 <body>
+    
+<!-- header -->
     <header class="container mx-auto">
 <!-- nav -->
             <nav class="my-4 md:my-6 lg:my-12">
@@ -41,22 +47,22 @@
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </div>
                             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
-                            <li><a>Explore</a></li>
-                            <li><a>Rooms</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Contact</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="explore.html">Explore</a></li>
+                            <li><a href="rooms.html">Rooms</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                             </ul>
                         </div>
-                        <a href=""><img src="home images/logo.png" alt=""></a>
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
                         </div>
                         <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal px-1 text-lg font-semibold">
-                            <li class="text-[#7C6A46]"><a>Home</a></li>
-                            <li><a>Explore</a></li>
-                            <li><a>Rooms</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Contact</a></li>
+                            <li class="text-[#7C6A46]"><a href="index.html">Home</a></li>
+                            <li><a href="explore.html">Explore</a></li>
+                            <li><a href="rooms.html">Rooms</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                         </div>
                         <div class="navbar-end">
@@ -74,13 +80,13 @@
                         <button class=" text-xl ml-4 border-0 bg-white"><i class="fa-solid fa-play mr-2 text-white border-2 border-white rounded-full px-6 py-5 bg-[#00A699]"></i>Take a tour</button>
                     </div>
                     <div>
-                        <img class="w-full" src="home images/banner.png" alt="">
+                        <img class="w-full" src="images/banner.png" alt="">
                     </div>
             </div>
     <!-- banner info -->
             <div class="grid grid-cols-6 py-5 justify-items-center bg-white shadow-lg relative bottom-28">
                 <div class="flex gap-4 items-center">
-                    <img class="h-[20px] w-[18px]" src="home images/icons/location icon.png" alt="">
+                    <img class="h-[20px] w-[18px]" src="images/icons/location icon.png" alt="">
                     <div>
                         <h6>Location</h6>
                         <div class="flex items-center gap-2.5">
@@ -92,7 +98,7 @@
                     </div>
                 </div>
                 <div class="flex gap-4 items-center">
-                    <img class="h-[20px] w-[18px]" src="home images/icons/room icon.png" alt="">
+                    <img class="h-[20px] w-[18px]" src="images/icons/room icon.png" alt="">
                     <div>
                         <h6>Room type</h6>
                         <div class="flex items-center gap-2.5">
@@ -104,7 +110,7 @@
                     </div>
                 </div>
                 <div class="flex gap-4 items-center">
-                    <img class="h-[20px] w-[18px]" src="home images/icons/person icon.png" alt="">
+                    <img class="h-[20px] w-[18px]" src="images/icons/person icon.png" alt="">
                     <div>
                         <h6>Person</h6>
                         <div class="flex items-center gap-2.5">
@@ -116,7 +122,7 @@
                     </div>
                 </div>
                 <div class="flex gap-4 items-center">
-                    <img class="h-[20px] w-[18px]" src="home images/icons/check in icon.png" alt="">
+                    <img class="h-[20px] w-[18px]" src="images/icons/check in icon.png" alt="">
                     <div>
                         <h6>Check In</h6>
                         <div class="flex items-center gap-2.5">
@@ -128,7 +134,7 @@
                     </div>
                 </div>
                 <div class="flex gap-4 items-center">
-                    <img class="h-[20px] w-[18px]" src="home images/icons/check in icon.png" alt="">
+                    <img class="h-[20px] w-[18px]" src="images/icons/check in icon.png" alt="">
                     <div>
                         <h6>Check Out</h6>
                         <div class="flex items-center gap-2.5">
@@ -145,176 +151,185 @@
             </div>  
     </header>
 
+
+<!-- main -->
     <main>
 <!-- facilities -->
-        <div class="container mx-auto mb-20">
-                <div class="text-center space-y-2 mb-10">
-                    <h5 class="text-4xl font-semibold"> Our Facilities</h5>
-                    <p class="text-xl">We offer modern (5 star) hotel facilities for your comfort.</p>
-                </div>
-                <div class="grid grid-cols-4 gap-20">
-                    <div class="bg-lime w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/swiming icon.png" alt="">
-                        <p class="text-white text-xl">Swimming Pool</p>
+            <div class="container mx-auto mb-20">
+                    <div class="text-center space-y-2 mb-10">
+                        <h5 class="text-4xl font-semibold"> Our Facilities</h5>
+                        <p class="text-xl">We offer modern (5 star) hotel facilities for your comfort.</p>
                     </div>
-                    <div class="bg-gray-100 w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/wifi icon.png" alt="">
-                        <p class="text-xl text-lime">Wifi</p>
+                    <div class="grid grid-cols-4 gap-20">
+                        <div class="bg-lime w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/swiming icon.png" alt="">
+                            <p class="text-white text-xl">Swimming Pool</p>
+                        </div>
+                        <div class="bg-gray-100 w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/wifi icon.png" alt="">
+                            <p class="text-xl text-lime">Wifi</p>
+                        </div>
+                        <div class="bg-gray-100 w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/food icon.png" alt="">
+                            <p class="text-xl text-lime">Breakfast</p>
+                        </div>
+                        <div class="bg-gray-100 w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/gym icon.png" alt="">
+                            <p class="text-xl text-lime">Gym</p>
+                        </div>
+                        <div class="bg-gray-100 w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/game icon.png" alt="">
+                            <p class="text-xl text-lime">Game center</p>
+                        </div>
+                        <div class="bg-gray-100 w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/light icon.png" alt="">
+                            <p class="text-xl text-lime">24/7 Light</p>
+                        </div>
+                        <div class="bg-gray-100 w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/laundry icon.png" alt="">
+                            <p class="text-xl text-lime">Laundry</p>
+                        </div>
+                        <div class="bg-gray-100 w-96 p-24 text-center rounded">
+                        <img class="mx-auto mb-4" src="images/icons/parking icon.png" alt="">
+                            <p class="text-xl text-lime">Parking space</p>
+                        </div>
                     </div>
-                    <div class="bg-gray-100 w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/food icon.png" alt="">
-                        <p class="text-xl text-lime">Breakfast</p>
-                    </div>
-                    <div class="bg-gray-100 w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/gym icon.png" alt="">
-                        <p class="text-xl text-lime">Gym</p>
-                    </div>
-                    <div class="bg-gray-100 w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/game icon.png" alt="">
-                        <p class="text-xl text-lime">Game center</p>
-                    </div>
-                    <div class="bg-gray-100 w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/light icon.png" alt="">
-                        <p class="text-xl text-lime">24/7 Light</p>
-                    </div>
-                    <div class="bg-gray-100 w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/laundry icon.png" alt="">
-                        <p class="text-xl text-lime">Laundry</p>
-                    </div>
-                    <div class="bg-gray-100 w-96 p-24 text-center rounded">
-                    <img class="mx-auto mb-4" src="home images/icons/parking icon.png" alt="">
-                        <p class="text-xl text-lime">Parking space</p>
-                    </div>
-                </div>
-        </div>
+            </div>
     <!-- luxurious room -->
-        <div class="bg-no-repeat p-10 bg-cover mb-20" style="background-image: url(bg/rooms-bg.png);">
-            <div class="text-center text-white mb-10 space-y-6">
-                <h3 class="text-5xl font-semibold">Luxurious Rooms</h3>
-                <div class="border-4 mx-auto w-[150px]"></div>
-                <p class="text-xl">All room are design for your comfort</p>
+            <div class="relative mb-20">
+                <!-- Image -->
+                <img src="bg/rooms-bg.png" alt="Image" class="w-full h-auto">
+                <!-- Overlay with color -->
+                <div class="absolute inset-0 bg-lime opacity-70"></div>
+                <!-- Centered Texts and Cards -->
+                <div class="absolute inset-0 flex flex-col justify-center items-center space-y-4 text-white">
+                <h1 class="text-4xl font-bold mb-4">Luxurious Rooms</h1>
+                <div class="border-4 w-[150px]"></div>
+                <p class="text-lg mb-8">All room are design for your comfortt</p>
+                <div class="flex flex-wrap justify-center">
+                    <!-- image card -->
+                    <div class="flex gap-16 justify-around">
+                        <div class="items-center rounded-md text-center p-7 bg-white w-96">
+                            <img src="images/room-1.png" alt="">
+                            <h6 class="text-white text-center bg-lime relative bottom-64 left-44 rounded p-1 w-[138px]">2 Rooms Available</h6>
+                            <p class="text-black">Television set, Extra sheets and Breakfast</p>
+                        </div>
+                        <div class="items-center rounded-md text-center p-7 bg-white w-96">
+                            <img src="images/room-2.png" alt="">
+                            <h6 class="text-white text-center bg-lime relative bottom-64 left-44 rounded p-1 w-[138px]">2 Rooms Available</h6>
+                            <p class="text-black">Television set, Extra sheets and Breakfast</p>
+                        </div>
+                        <div class="items-center rounded-md text-center p-7 bg-white w-96">
+                            <img src="images/room-3.png" alt="">
+                            <h6 class="text-white text-center bg-lime relative bottom-64 left-44 rounded p-1 w-[138px]">2 Rooms Available</h6>
+                            <p class="text-black">Television set, Extra sheets and Breakfast</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
-            <div class="flex justify-around">
-                <div class="items-center rounded-md text-center p-7 bg-white w-96">
-                    <img src="home images/room-1.png" alt="">
-                    <h6 class="text-white text-center bg-lime relative bottom-64 left-44 rounded p-1 w-[138px]">2 Rooms Available</h6>
-                    <p>Television set, Extra sheets and Breakfast</p>
-                </div>
-                <div class="items-center rounded-md text-center p-7 bg-white w-96">
-                    <img src="home images/room-2.png" alt="">
-                    <h6 class="text-white text-center bg-lime relative bottom-64 left-44 rounded p-1 w-[138px]">2 Rooms Available</h6>
-                    <p>Television set, Extra sheets and Breakfast</p>
-                </div>
-                <div class="items-center rounded-md text-center p-7 bg-white w-96">
-                    <img src="home images/room-3.png" alt="">
-                    <h6 class="text-white text-center bg-lime relative bottom-64 left-44 rounded p-1 w-[138px]">2 Rooms Available</h6>
-                    <p>Television set, Extra sheets and Breakfast</p>
-                </div>
-            </div>
-
-        
-        </div>
     <!--Testimonies  -->
-        <div class="container mx-auto mb-20">
-            <h1 class="text-5xl font-semibold mb-10 text-center">Testimonies</h1>
-            <div class="flex gap-20">
-                <div class="items-center rounded-md text-justify p-6 rounded bg-gray-100">
-                    <div class="flex items-center justify-between mb-5 gap-5 mt-5">
-                        <p>2 Mar. 2023</p>
-                        <div class="rating rating-xs">
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+            <div class="container mx-auto mb-20">
+                <h1 class="text-5xl font-semibold mb-16 text-center">Testimonies</h1>
+                <div class="flex gap-20">
+                    <div class="items-center rounded-md text-justify p-6 rounded bg-gray-100">
+                        <div class="flex items-center justify-between mb-5 gap-5 mt-5">
+                            <p>2 Mar. 2023</p>
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </div>
+                        <p>The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high.</p>
+                        <div class="flex items-center gap-5 mt-5">
+                            <img src="images/icons/pic icon-1.png" alt="">
+                            <p>Anthony Bruff</p>
                         </div>
                     </div>
-                    <p>The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high.</p>
-                    <div class="flex items-center gap-5 mt-5">
-                        <img src="home images/icons/pic icon-1.png" alt="">
-                        <p>Anthony Bruff</p>
-                    </div>
-                </div>
-                <div class="items-center rounded-md text-justify p-6 rounded bg-gray-100">
-                    <div class="flex items-center justify-between mb-5 gap-5 mt-5">
-                        <p>2 Mar. 2023</p>
-                        <div class="rating rating-xs">
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <div class="items-center rounded-md text-justify p-6 rounded bg-gray-100">
+                        <div class="flex items-center justify-between mb-5 gap-5 mt-5">
+                            <p>2 Mar. 2023</p>
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </div>
+                        <p>The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high.</p>
+                        <div class="flex items-center gap-5 mt-5">
+                            <img src="images/icons/pic icon-2.png" alt="">
+                            <p>Regina Gella</p>
                         </div>
                     </div>
-                    <p>The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high.</p>
-                    <div class="flex items-center gap-5 mt-5">
-                        <img src="home images/icons/pic icon-2.png" alt="">
-                        <p>Regina Gella</p>
-                    </div>
-                </div>
-                <div class="items-center rounded-md text-justify p-6 rounded bg-gray-100">
-                    <div class="flex items-center justify-between mb-5 gap-5 mt-5">
-                        <p>2 Mar. 2023</p>
-                        <div class="rating rating-xs">
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
-                            <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <div class="items-center rounded-md text-justify p-6 rounded bg-gray-100">
+                        <div class="flex items-center justify-between mb-5 gap-5 mt-5">
+                            <p>2 Mar. 2023</p>
+                            <div class="rating rating-xs">
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                            </div>
+                        </div>
+                        <p>The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high.</p>
+                        <div class="flex items-center gap-5 mt-5">
+                            <img src="images/icons/pic icon-3.png" alt="">
+                            <p>Jamiyu Aliyu</p>
                         </div>
                     </div>
-                    <p>The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us). Numerous conference attendees commented on the quality of the food, the quality of the service and overall positive attitude toward the conference site. Particular noteworthy is the longevity of the staff and that sense of investment in the success of every event. I usually offer suggestions for improvements (part of being a marketing professor), but there is absolutely nothing that could be improved – you have set the bar very high.</p>
-                    <div class="flex items-center gap-5 mt-5">
-                        <img src="home images/icons/pic icon-3.png" alt="">
-                        <p>Jamiyu Aliyu</p>
-                    </div>
                 </div>
-            </div>
-        </div>  
+            </div>  
     </main>
-    
+
+
 <!-- footer -->
-    <footer class="footer p-10 bg-lime text-white text-base-content">
-        <nav class="w-[245px]">
-            <h3 class="font-dancing-script text-2xl">Paradise view</h3>
-            <p class="text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</p>
-        </nav>
-        <nav>
-          <h6 class="footer-title">Services</h6> 
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
-        </nav> 
-        <nav>
-          <h6 class="footer-title">Company</h6> 
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
-        </nav> 
-        <nav>
-          <h6 class="footer-title">Legal</h6> 
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
-        </nav> 
-        <form>
-          <h6 class="footer-title">Newsletter</h6> 
-          <fieldset class="form-control w-80">
-            <label class="label">
-              <span class="label-text text-white">Enter your email address</span>
-            </label> 
-            <div class="join">
-              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
-              <button class="btn bg-lime text-white join-item">Subscribe</button>
-            </div>
-          </fieldset>
-        </form>
-      </footer>
-      <hr>
-      <footer class="bg-lime text-white text-center p-12">
-        <p>Paradise view 2024</p>
-      </footer>
+    <footer class="footer p-10 bg-lime justify-around text-white text-base-content">
+            <nav class="w-[245px]">
+                <h3 class="font-dancing-script text-2xl">Paradise view</h3>
+                <p class="text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</p>
+            </nav>
+            <nav>
+            <h6 class="footer-title">Services</h6> 
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+            </nav> 
+            <nav>
+            <h6 class="footer-title">Company</h6> 
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+            </nav> 
+            <nav>
+            <h6 class="footer-title">Legal</h6> 
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+            </nav> 
+            <form>
+            <h6 class="footer-title">Newsletter</h6> 
+            <fieldset class="form-control w-80">
+                <label class="label">
+                <span class="label-text text-white">Enter your email address</span>
+                </label> 
+                <div class="join">
+                <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+                <button class="btn bg-lime text-white join-item">Subscribe</button>
+                </div>
+            </fieldset>
+            </form>
+    </footer>
+            <hr>
+    <footer class="bg-lime text-white text-center p-12">
+            <p>Paradise view 2024</p>
+    </footer> 
 </body>
 </html>
