@@ -72,29 +72,30 @@
                     </div>
             </nav>
  <!-- banner -->
-            <section class="mb-28">
-                <div class="hero h-screen" style="background-image: url(images/room-1.png);">
-                    <div class="hero-overlay bg-lime bg-opacity-60"></div>
-                    <div class="hero-content text-white text-center text-neutral-content">
-                      <div class="w-[680px]">
-                        <h1 class="mb-5 text-5xl font-bold">Contact Us</h1>
-                        <p class="mb-5 text-xl">The elegant luxury bedrooms in this gallery showcase custom interior designs & decorating ideas. View pictures and find your perfect luxury bedroom design..</p>
-                        <a class="btn px-10 bg-[#7C6A46] text-base text-white">Book now</a>
-                      </div>
-                    </div>
-                  </div>
+            <section>
+                <div class="relative mb-8 md:mb-14 lg:mb-20">
+                <!-- Image -->
+                <img src="images/contact-room.jpg" alt="Image" class="w-full h-[250px] lg:h-[800px]">
+                <!-- Overlay with color -->
+                <div class="absolute inset-0 bg-lime opacity-70"></div>
+                <!-- Centered Texts -->
+                <div class="absolute inset-0 flex flex-col justify-center text-center space-y-3 items-center text-white">
+                <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">Contact Us</h1>
+                <p class="text-base md:text-lg lg:text-lg lg:w-[700px]">The elegant luxury bedrooms in this gallery showcase custom interior designs & decorating ideas. View pictures and find your perfect luxury bedroom design</p>
+                <a class="btn bg-[#7C6A46] text-base text-white">Book now</a>   
+            </div>
             </section>
     </header>
 
 <!-- main -->
     <main class="container mx-auto">
         <!-- name and email -->
-            <div class="flex gap-10 justify-between items-center">
+            <div class="flex flex-col md:flex-row lg:flex-row md:gap-5 lg:gap-10 lg:justify-between items-center text-center md:text-start lg:text-start mx-0 md:mx-5 lg:mx-0">
                 <div class="flex-1 mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="your email">
                     Your Name
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="first_name" type="text" placeholder="your name">
+                    <input class="shadow appearance-none border rounded w-full  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="first_name" type="text" placeholder="your name">
                 </div>
                 <div class="flex-1 mb-4">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="your email">
@@ -104,11 +105,11 @@
                 </div>
             </div>
         <!-- message -->
-            <div class="mb-20">
+            <div class="mb-8 md:mb-12 lg:mb-20 w-full md:w-full lg:w-full text-center md:text-start lg:text-start mx-0 md:mx-0 lg:mx-0 pl-5 pr-5 lg:pl-0 lg:pr-0">
                 <p class="block text-gray-700 text-sm font-bold mb-2">Messages</p>
                     <!-- Message Input Area -->
                 <div class="">
-                        <textarea class="w-full border border-gray-300 rounded-lg py-2 px-3 resize-none focus:outline-none focus:border-blue-500" rows="15" placeholder="Type your message..."></textarea>         
+                        <textarea class="w-full border border-gray-300 rounded-lg py-2 px-3 resize-none focus:outline-none focus:border-blue-500" rows="10" placeholder="Type your message..."></textarea>         
                 </div>
             </div>
         <!-- map -->
@@ -118,47 +119,50 @@
     </main>
 
 <!-- footer -->
-    <footer class="footer p-10 bg-lime justify-around text-white text-base-content">
-            <nav class="w-[245px]">
-                <h3 class="font-dancing-script text-2xl">Paradise view</h3>
-                <p class="text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</p>
-            </nav>
-            <nav>
-                <h6 class="footer-title">Services</h6> 
-                <a class="link link-hover">Branding</a>
-                <a class="link link-hover">Design</a>
-                <a class="link link-hover">Marketing</a>
-                <a class="link link-hover">Advertisement</a>
-            </nav> 
-            <nav>
-                <h6 class="footer-title">Company</h6> 
-                <a class="link link-hover">About us</a>
-                <a class="link link-hover">Contact</a>
-                <a class="link link-hover">Jobs</a>
-                <a class="link link-hover">Press kit</a>
-            </nav> 
-            <nav>
-                <h6 class="footer-title">Legal</h6> 
-                <a class="link link-hover">Terms of use</a>
-                <a class="link link-hover">Privacy policy</a>
-                <a class="link link-hover">Cookie policy</a>
-            </nav> 
-            <form>
-                <h6 class="footer-title">Newsletter</h6> 
-                <fieldset class="form-control w-80">
-                <label class="label">
-                    <span class="label-text text-white">Enter your email address</span>
-                </label> 
-                <div class="join">
-                    <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
-                    <button class="btn bg-lime text-white join-item">Subscribe</button>
+        <footer>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 bg-lime text-white text-sm lg:justify-items-center p-8 md:p-10 lg:p-20 gap-8">
+                <div class="order-last lg:-order-last col-span-2 lg:col-auto w-full lg:w-[245px]">
+                    <h3 class="font-dancing-script text-2xl">Paradise view</h3>
+                    <p class="text-justify">The service at the Hotel Monteleone was exceptional. There was absolutely no issue that was not addressed timely and with satisfactory results. We were particulary impressed with how the hotel staff anticipated our needs (periodically coming by the Board Room to check with us)</p>
                 </div>
-                </fieldset>
-            </form>
-    </footer>
+                <div class="flex flex-col">
+                    <h6 class="footer-title">Services</h6> 
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
+                </div>
+                <div class="flex flex-col">
+                    <h6 class="footer-title">Company</h6> 
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </div>
+                <div class="flex flex-col">
+                    <h6 class="footer-title">Legal</h6> 
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </div>
+                <div class="flex flex-col order-last lg: -order-last">
+                    <form>
+                        <h6 class="footer-title">News letter</h6> 
+                        <div>
+                            <form class="flex flex-col lg:flex-row">
+                                <input type="email" id="email" name="email" class="flex-grow border-2 border-gray-100 rounded-md px-3 py-1 py-2 focus:outline-1 focus:border-blue-500 mb-3" placeholder="Enter your email address">
+                                <button type="submit" class="bg-lime text-white font-bold py-2 px-4 rounded-md hover:bg-gray-200 focus:outline-none focus:bg-gray-200 border-2">Submit</button>
+                            </form>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
             <hr>
-    <footer class="bg-lime text-white text-center p-12">
-            <p>Paradise view 2024</p>
-    </footer>      
+            <div class="bg-lime text-white text-center p-8">
+                <p class="text-sm">Paradise view 2024 by Muhammad Hasan Ali<br>&<br>Brothers05.Com</p>
+            </div>
+        </footer>
+
 </body>
 </html>
